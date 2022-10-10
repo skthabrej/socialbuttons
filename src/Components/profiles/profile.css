@@ -1,0 +1,51 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://i.ibb.co/5nL05tC/25-anime-holding-program-wallpaper-minimalistic-desktop-cinnamon-what-did-you-think-rlinuxmint.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-size: 32px;
+    color: bisque;
+    margin-bottom: 30px;
+}
+
+.user-card-container {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 22px;
+    padding: 6px;
+}
+
+.user-details-container {
+    margin-left: 12px;
+}
+
+.user-name {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.user-designation {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: oldlace;
+    margin: 0px;
+}
+
