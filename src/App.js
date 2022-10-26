@@ -35,7 +35,7 @@ const App = () => (
     <h1 className="title">Pillars of Programming</h1>
     <ul>
       {userDetailsList.map((eachItem) => (
-        <UserProfile userDetails={eachItem} />
+        <UserProfile userDetails={eachItem} key={eachItem.uniqueNo}/>
       ))}
     </ul>
   </div>
